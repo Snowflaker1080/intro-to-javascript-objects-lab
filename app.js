@@ -235,7 +235,7 @@ game.catchPokemon = function(pokemonObj) {
 const eevee = pokemon.find(p => p.name === 'Eevee');
 
   // Called the method to catch the chosen Pokemon.
-game.catchPokemon(eevee); // ## quanCheck ## Why isn't 'eevee' not case sensitive?
+game.catchPokemon(eevee); 
 
   // Verifying that chosen Pokemon 'Eevee is now in the party.
   // Using console logging using array.map() and array.join()concatenates names into single string with comma & space separating each name.
@@ -371,7 +371,7 @@ game.gyms.forEach (gym => {
   }
 });
 
-console.log('Exercise 15 Result','Updated gyms (difficulty < 8):', game.gyms)
+console.log('Exercise 15 Result','Updated Gyms (difficulty < 8):', game.gyms)
 
 /*
 ## Exercise 16 ##
@@ -379,7 +379,7 @@ console.log('Exercise 15 Result','Updated gyms (difficulty < 8):', game.gyms)
 Solve Exercise 16 here:
 */
 
-console.log('Exercise 16 Result','Full game object:', game)
+console.log('Exercise 16 Result','Full Game Object:', game)
 
 // LEVEL UP //
 
@@ -390,7 +390,7 @@ console.log('Exercise 16 Result','Full game object:', game)
 Solve Exercise 17 here:
 */
   // .sort() method accepts a compare function tht determines the order of elements.
-game.party.sort((a, b) => b.hp - a.hp)                                                  // ## quanCheck ##
+game.party.sort((a, b) => b.hp - a.hp)                                                 
 console.log('Exercise 17 Result', 'Sorted party by HP:', game.party)
 
 /*
@@ -428,9 +428,9 @@ game.catchPokemon = function(pokemonObj) {
   }
 };
 
-console.log('Exercise 18 Results', 'Updated items:', game.items);
-console.log('Exercise 18 Results','Current party', game.party.map(p => p.name));
-console.log('Exercise 18 Results','Current collection', game.collection.map(p => p.name));
+console.log('Exercise 18 Results', 'Updated Items:', game.items);
+console.log('Exercise 18 Results','Current Party', game.party.map(p => p.name));
+console.log('Exercise 18 Results','Current Collection', game.collection.map(p => p.name));
 
 /*
 ## Exercise 19 ## 
